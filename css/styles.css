@@ -1,1 +1,148 @@
+ body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+ body a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+ }
+
+header {
+    background-color: #f6f6f9;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.site-header-left {
+    display: flex;
+}
+
+.logo-img {
+    padding: 0;
+    width: 329px;
+    height: 33px;
+    background-color: #fff;
+}
+
+.course {
+    
+    display: flex;
+}
+
+.course-strong {
+    color: #295091;
+}
+
+.lupas-icon {
+    border: 0;
+    width: 38px;
+    height: 40px;
+    background-color: #fff;
+}
+
+.language-icon {
+    border: 0;
+    width: 65px;
+    height: 40px;
+    background-color: #fff;
+}
+
+.flag {
+    width: 20px;
+    height: 20px;
+}
+
+.telegram-icon {
+    width: 146px;
+    height: 40px;
+    background-color: #295091;
+}
+
+.telegram-icon a {
+    text-decoration: none;
+    color: black;
+}
+
+.site-header-nav {
+    background-color: #fff;
+    list-style: none;
+}
+
+.site-header-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.site-adversiting {
+    background-color: #fff;
+    width: 1200px;
+    height: 99px;
+}
+
+.site-main-info {
+    width: 1200px;
+    height: 133px;
+    display: flex;
+    background-color: rgba(246, 246, 249, 1);
+}
+
+.virus-info {
+    width: 38px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.info-list {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.info-list a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(239, 186, 84, 0.18);
+    color: black;
+    width: 1200px;
+    height: 91px;
+}
+
+.tasks a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.promo {
+    display: flex;
+}
+
+.others {
+    display: flex;
+    background-color: rgba(246, 246, 249, 1);
+
+}
+
+.site-footer-info {
+    display: flex;
+}
